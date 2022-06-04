@@ -28,7 +28,7 @@ app.get('*', (request, response) => {
       params: [
         {
           type: 'multipart/form-data',
-          name: 'image',
+          name: 'file',
         },
       ],
     },
